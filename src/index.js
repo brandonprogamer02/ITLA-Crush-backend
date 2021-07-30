@@ -7,7 +7,7 @@ export const app = express()
 
 dotenv.config()
 
-app.set('PORT', 5000)
+app.set('PORT', process.env.PORT || 5000)
 
 // middlewares
 app.use(express.json())
