@@ -6,7 +6,7 @@ function confesionRoute(){
    const router = express.Router('')
 
    router.get('/api/confesion', getConfesionController)
-   router.post('api/confesion', insertConfesionController)
+   router.post('/api/confesion', insertConfesionController)
    // router.delete('/confesion', deleteConfesionController)
    // router.delete('/confesion', deleteConfesionController)
 
